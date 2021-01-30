@@ -1,0 +1,8 @@
+name: 'BLP Flex Groups Event Series'
+description: 'Provides a flexible Group called BLP Event.'
+type: module
+core: 8.x
+dependencies:
+  - social_group_flexible_group
+core_incompatible: false
+package: BLP

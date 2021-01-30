@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.blp_event
+_core:
+  default_config_hash: WY5Lu6JzEenwyHDhshtKAcnjBXz-b9TackCM3NVCWxA
+id: blp_event-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: blp_event
+permissions_ui: false
+permissions:
+  - 'access comments'
+  - 'access posts in group'
+  - 'join group'
+  - 'update own group_node:blp_event entity'
+  - 'update own group_node:topic entity'
+  - 'view group'
+  - 'view group stream page'
+  - 'view group_membership content'
+  - 'view group_node:blp_event content'
+  - 'view group_node:blp_event entity'
+  - 'view group_node:topic content'
+  - 'view group_node:topic entity'

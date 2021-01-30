@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.blp_event
+    - node.type.event
+  module:
+    - gnode
+    - node
+    - blp_flex_groups_event_series
+_core:
+  default_config_hash: PEAHiStUxaYJjmvl6U9LRiQNDJkKIh_KuFzT_r98iHk
+id: blp_event-group_node-event
+label: event
+description: 'Adds <em class="placeholder">Event</em> content to groups using private content settings.'
+group_type: blp_event
+content_plugin: 'group_node:event'
+plugin_config:
+  group_cardinality: 1
+  entity_cardinality: 1
+  use_creation_wizard: false

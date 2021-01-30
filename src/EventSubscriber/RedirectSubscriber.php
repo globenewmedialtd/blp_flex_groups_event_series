@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\social_group_flexible_group\EventSubscriber;
+namespace Drupal\blp_flex_groups_event_series\EventSubscriber;
 
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Session\AccountProxyInterface;
@@ -72,7 +72,7 @@ class RedirectSubscriber implements EventSubscriberInterface {
     }
 
     // If a group type is flexible group.
-    if ($group->bundle() !== 'flexible_group') {
+    if ($group->bundle() !== 'blp_event') {
       return;
     }
 
