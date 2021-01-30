@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.blp_event
+_core:
+  default_config_hash: jy2K7Ecz9KLP0E0a_Wt2dFF5FOR3NQzvpJY4gVQdejQ
+id: blp_event-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: blp_event
+permissions_ui: false
+permissions:
+  - 'view group'
+  - 'view group stream page'
+  - 'view group_membership content'
+  - 'view group_node:blp_event content'
+  - 'view group_node:blp_event entity'
+  - 'view group_node:topic content'
+  - 'view group_node:topic entity'
