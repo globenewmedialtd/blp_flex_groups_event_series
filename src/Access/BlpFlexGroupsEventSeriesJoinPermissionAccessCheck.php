@@ -56,7 +56,7 @@ class BlpFlexGroupsEventSeriesJoinPermissionAccessCheck implements AccessInterfa
 
     $type = $group->getGroupType();
     // Don't interfere if the group isn't a flexible group.
-    if ($type instanceof GroupTypeInterface && $type->id() !== 'event') {
+    if ($type instanceof GroupTypeInterface && $type->id() !== 'blp_event') {
       if (!empty($group_permission)) {
         return GroupAccessResult::allowedIfHasGroupPermissions($group, $account, [$group_permission]);
       }
