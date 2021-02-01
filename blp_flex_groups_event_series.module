@@ -32,20 +32,6 @@ function blp_flex_groups_event_series_social_group_types_alter(array &$social_gr
 }
 
 /**
- * Implements hook_views_data_alter().
- */
-function blp_flex_groups_event_series_views_data_alter(array &$data) {
-  $data['node_access']['blp_event_node_access'] = [
-    'title' => t('Filter nodes, with visibility group, placed in group you are not a member of.'),
-    'filter' => [
-      'title' => t('Filter nodes, with visibility group, placed in group you are not a member of.'),
-      'help' => t('Filter nodes, with visibility group, placed in group you are not a member of.'),
-      'id' => 'flexible_group_node_access',
-    ],
-  ];
-}
-
-/**
  * Implements hook_form_FORM_ID_form_alter().
  */
 function blp_flex_groups_event_series_form_group_event_edit_form_alter(&$form, FormStateInterface $form_state, $form_id) {
