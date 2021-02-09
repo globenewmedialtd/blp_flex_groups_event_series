@@ -34,7 +34,7 @@ function blp_flex_groups_event_series_social_group_types_alter(array &$social_gr
 /**
  * Implements hook_form_FORM_ID_form_alter().
  */
-function blp_flex_groups_event_series_form_group_event_edit_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+function blp_flex_groups_event_series_form_group_blp_event_edit_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   // Lets remove group type from flexible group.
   // Editing is useless since the options are all in there.
   if ($form['group_type']['#disabled']) {
