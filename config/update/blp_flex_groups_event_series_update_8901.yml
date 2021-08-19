@@ -1,0 +1,21 @@
+field.field.group.blp_event.field_flexible_group_visibility:
+  langcode: en
+  status: true
+  dependencies:
+    config:
+      - field.storage.group.field_flexible_group_visibility
+      - group.type.blp_event
+    module:
+      - options
+  id: group.blp_event.field_flexible_group_visibility
+  field_name: field_flexible_group_visibility
+  entity_type: group
+  bundle: blp_event
+  label: 'Group visibility'
+  description: 'Who can see the group'
+  required: true
+  translatable: false
+  default_value: {  }
+  default_value_callback: ''
+  settings: {  }
+  field_type: list_string
