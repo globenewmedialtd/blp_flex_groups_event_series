@@ -19,7 +19,7 @@ use Drupal\block\Entity\Block;
 use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\group\Entity\Group;
 use Drupal\group\Entity\GroupInterface;
-use Drupal\tm_flex_group_conference\TmConferenceContentVisibilityUpdate;
+use Drupal\blp_flex_groups_event_series\BlpEventContentVisibilityUpdate;
 use Drupal\views\Plugin\views\query\QueryPluginBase;
 use Drupal\views\Plugin\views\row\EntityRow;
 use Drupal\views\ViewExecutable;
