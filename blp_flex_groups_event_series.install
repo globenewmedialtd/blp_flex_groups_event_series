@@ -54,7 +54,7 @@ function _blp_flex_groups_event_series_get_permissions($role) {
 
   // Authenticated.
   $permissions['authenticated'] = array_merge($permissions['anonymous'], [
-    'create flexible_group group',
+    'create blp_event group',
   ]);
 
   // Content manager.
